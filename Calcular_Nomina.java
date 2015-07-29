@@ -21,7 +21,16 @@ public class Calcular_Nomina extends ActionBarActivity {
         etnomina.setText(" "+nomina2.getNomina());
     }
 
+
+
     
+    public void regresar(View v)
+    {
+        Intent i = new Intent():
+        i.setClass(this,Principal.class);
+        startActivity(i);
+    }
+
 
 
 }
